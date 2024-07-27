@@ -1,0 +1,56 @@
+2023-10-22 10:35:16 | INFO | model_worker | Loading the model ['chatglm2-6b'] on worker e4b536d4 ...
+2023-10-22 10:35:16 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                                                                       | 0/7 [00:00<?, ?it/s]
+2023-10-22 10:35:18 | ERROR | stderr | Loading checkpoint shards:  14%|███████████████▊                                                                                               | 1/7 [00:01<00:09,  1.62s/it]
+2023-10-22 10:35:20 | ERROR | stderr | Loading checkpoint shards:  29%|███████████████████████████████▋                                                                               | 2/7 [00:03<00:08,  1.61s/it]
+2023-10-22 10:35:21 | ERROR | stderr | Loading checkpoint shards:  43%|███████████████████████████████████████████████▌                                                               | 3/7 [00:04<00:06,  1.58s/it]
+2023-10-22 10:35:23 | ERROR | stderr | Loading checkpoint shards:  57%|███████████████████████████████████████████████████████████████▍                                               | 4/7 [00:06<00:04,  1.52s/it]
+2023-10-22 10:35:24 | ERROR | stderr | Loading checkpoint shards:  71%|███████████████████████████████████████████████████████████████████████████████▎                               | 5/7 [00:07<00:03,  1.54s/it]
+2023-10-22 10:35:26 | ERROR | stderr | Loading checkpoint shards:  86%|███████████████████████████████████████████████████████████████████████████████████████████████▏               | 6/7 [00:09<00:01,  1.57s/it]
+2023-10-22 10:35:27 | ERROR | stderr | Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:10<00:00,  1.38s/it]
+2023-10-22 10:35:27 | ERROR | stderr | Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:10<00:00,  1.48s/it]
+2023-10-22 10:35:27 | ERROR | stderr | 
+2023-10-22 10:35:30 | INFO | model_worker | Register to controller
+2023-10-22 10:35:30 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1455[0m]
+2023-10-22 10:35:30 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:35:30 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:35:30 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20002[0m (Press CTRL+C to quit)
+2023-10-22 10:36:15 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: None. call_ct: 0. worker_id: e4b536d4. 
+2023-10-22 10:37:00 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: None. call_ct: 0. worker_id: e4b536d4. 
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36740 - "[1mPOST /worker_get_conv_template HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36746 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36758 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36764 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:45 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: e4b536d4. 
+2023-10-22 10:38:30 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: e4b536d4. 
+2023-10-22 10:39:16 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: e4b536d4. 
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51916 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51932 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51946 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:01 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: e4b536d4. 
+2023-10-22 10:40:46 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: e4b536d4. 
+2023-10-22 10:41:31 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: e4b536d4. 
+2023-10-22 10:42:16 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: e4b536d4. 
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57690 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57696 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57708 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57716 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57722 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57730 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57746 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57748 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57760 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:01 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: e4b536d4. 
+2023-10-22 10:43:46 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: e4b536d4. 
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42938 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42948 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42954 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42968 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42982 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:42986 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37812 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37824 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37828 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39260 - "[1mPOST /model_details HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39272 - "[1mPOST /count_token HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39282 - "[1mPOST /worker_generate_stream HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:31 | INFO | model_worker | Send heart beat. Models: ['chatglm2-6b']. Semaphore: Semaphore(value=5, locked=False). call_ct: 9. worker_id: e4b536d4. 

@@ -1,0 +1,10 @@
+name: Classifier
+description: Use a trained Decision Tree classifier to classify input data
+parameters:
+  type: object
+  properties:
+    X_test:
+      type: string
+      description: The input data to classify
+  required:
+    - X_test

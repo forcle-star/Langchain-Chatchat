@@ -1,0 +1,7 @@
+2023-12-02 17:18:26 | INFO | model_worker | Loading the model ['Qwen-1_8B-Chat'] on worker 40ee506e ...
+2023-12-02 17:18:26 | ERROR | stderr | Loading checkpoint shards:   0%|                                                                  | 0/2 [00:00<?, ?it/s]
+2023-12-02 17:18:26 | ERROR | stderr | Loading checkpoint shards:  50%|█████████████████████████████                             | 1/2 [00:00<00:00,  2.95it/s]
+2023-12-02 17:18:27 | ERROR | stderr | Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  3.44it/s]
+2023-12-02 17:18:27 | ERROR | stderr | Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  3.35it/s]
+2023-12-02 17:18:27 | ERROR | stderr | 
+2023-12-02 17:18:27 | INFO | model_worker | Register to controller

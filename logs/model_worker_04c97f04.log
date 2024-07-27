@@ -1,0 +1,5 @@
+2023-10-22 10:26:30 | INFO | model_worker | Register to controller
+2023-10-22 10:26:31 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m383[0m]
+2023-10-22 10:26:31 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:26:31 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:26:31 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:21001[0m (Press CTRL+C to quit)

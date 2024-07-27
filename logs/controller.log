@@ -1,0 +1,160 @@
+2023-10-22 10:07:31 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1779[0m]
+2023-10-22 10:07:31 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:07:31 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:07:31 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:10:53 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m2186[0m]
+2023-10-22 10:10:53 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:10:53 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:10:53 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:26:26 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m344[0m]
+2023-10-22 10:26:26 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:26:26 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:26:26 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:26:30 | INFO | controller | Register a new worker: http://127.0.0.1:21001
+2023-10-22 10:26:30 | INFO | controller | Register done: http://127.0.0.1:21001, {'model_names': ['zhipu-api'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:26:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44632 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:28:08 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m596[0m]
+2023-10-22 10:28:08 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:28:08 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:28:08 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:28:12 | INFO | controller | Register a new worker: http://127.0.0.1:21001
+2023-10-22 10:28:12 | INFO | controller | Register done: http://127.0.0.1:21001, {'model_names': ['zhipu-api'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:28:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40622 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:31:37 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m869[0m]
+2023-10-22 10:31:37 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:31:37 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:31:37 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:31:42 | INFO | controller | Register a new worker: http://127.0.0.1:21001
+2023-10-22 10:31:42 | INFO | controller | Register done: http://127.0.0.1:21001, {'model_names': ['zhipu-api'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:31:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45750 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:31:57 | INFO | controller | Register a new worker: http://127.0.0.1:20002
+2023-10-22 10:31:57 | INFO | controller | Register done: http://127.0.0.1:20002, {'model_names': ['chatglm2-6b'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:31:57 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44026 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:32:27 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:32:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:53644 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:32:42 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:32:42 | INFO | stdout | [32mINFO[0m:     127.0.0.1:56442 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:32:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36942 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:32:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36946 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:32:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36948 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:04 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51028 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51036 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51040 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:05 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [0.0], ret: http://127.0.0.1:20002
+2023-10-22 10:33:05 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51044 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:12 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:33:12 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57430 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:33:27 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:33:27 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45944 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:35:12 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1417[0m]
+2023-10-22 10:35:12 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:35:12 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:35:12 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:20001[0m (Press CTRL+C to quit)
+2023-10-22 10:35:16 | INFO | controller | Register a new worker: http://127.0.0.1:21001
+2023-10-22 10:35:16 | INFO | controller | Register done: http://127.0.0.1:21001, {'model_names': ['zhipu-api'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:35:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48272 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:35:30 | INFO | controller | Register a new worker: http://127.0.0.1:20002
+2023-10-22 10:35:30 | INFO | controller | Register done: http://127.0.0.1:20002, {'model_names': ['chatglm2-6b'], 'speed': 1, 'queue_length': 0}
+2023-10-22 10:35:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:32914 - "[1mPOST /register_worker HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:36:01 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:36:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33546 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:36:15 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:36:15 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36646 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:36:46 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:36:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:33546 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:00 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:37:00 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34682 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57188 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57200 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:18 | INFO | stdout | [32mINFO[0m:     127.0.0.1:57202 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:31 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:37:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41786 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41798 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41800 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41814 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:32 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [0.0], ret: http://127.0.0.1:20002
+2023-10-22 10:37:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:41830 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49410 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:40 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49426 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:45 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:37:45 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49438 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47350 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:37:47 | INFO | stdout | [32mINFO[0m:     127.0.0.1:47354 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:38:16 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:38:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54366 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:38:30 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:38:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43800 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:01 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:39:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:55644 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:16 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:39:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54234 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60898 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49496 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:26 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49500 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:46 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:39:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:36608 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45934 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45942 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45946 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:39:58 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [0.0], ret: http://127.0.0.1:20002
+2023-10-22 10:39:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45954 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:01 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:40:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45956 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45970 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:03 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45976 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:31 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:40:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:34398 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:40:46 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:40:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:43148 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:41:16 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:41:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:45888 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:41:31 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:41:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:40408 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:01 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:42:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44088 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:16 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:42:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54404 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48350 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48360 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48368 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:30 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [0.0], ret: http://127.0.0.1:20002
+2023-10-22 10:42:30 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48370 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48380 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:31 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [1.0], ret: http://127.0.0.1:20002
+2023-10-22 10:42:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48386 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48394 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:32 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [2.0], ret: http://127.0.0.1:20002
+2023-10-22 10:42:32 | INFO | stdout | [32mINFO[0m:     127.0.0.1:48408 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:42:46 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:42:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44864 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:01 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:43:01 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44178 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:31 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:43:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:37680 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:46 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:43:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:54100 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44080 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44096 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44112 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:54 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [0.0], ret: http://127.0.0.1:20002
+2023-10-22 10:43:54 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44124 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44134 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:55 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [1.0], ret: http://127.0.0.1:20002
+2023-10-22 10:43:55 | INFO | stdout | [32mINFO[0m:     127.0.0.1:44140 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39858 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:43:58 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [2.0], ret: http://127.0.0.1:20002
+2023-10-22 10:43:58 | INFO | stdout | [32mINFO[0m:     127.0.0.1:39862 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49110 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:13 | INFO | controller | names: ['http://127.0.0.1:20002'], queue_lens: [3.0], ret: http://127.0.0.1:20002
+2023-10-22 10:44:13 | INFO | stdout | [32mINFO[0m:     127.0.0.1:49112 - "[1mPOST /get_worker_address HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:16 | INFO | controller | Receive heart beat. http://127.0.0.1:21001
+2023-10-22 10:44:16 | INFO | stdout | [32mINFO[0m:     127.0.0.1:51770 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:31 | INFO | controller | Receive heart beat. http://127.0.0.1:20002
+2023-10-22 10:44:31 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46460 - "[1mPOST /receive_heart_beat HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46246 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46248 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:46 | INFO | stdout | [32mINFO[0m:     127.0.0.1:46252 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60094 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60110 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60118 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m
+2023-10-22 10:44:49 | INFO | stdout | [32mINFO[0m:     127.0.0.1:60134 - "[1mPOST /list_models HTTP/1.1[0m" [32m200 OK[0m

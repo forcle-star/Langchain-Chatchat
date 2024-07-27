@@ -1,0 +1,7 @@
+2023-10-22 10:31:42 | INFO | model_worker | Register to controller
+2023-10-22 10:31:42 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m908[0m]
+2023-10-22 10:31:42 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:31:42 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:31:42 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:21001[0m (Press CTRL+C to quit)
+2023-10-22 10:32:27 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 13b31a42. 
+2023-10-22 10:33:12 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 13b31a42. 

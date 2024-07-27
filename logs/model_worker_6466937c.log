@@ -1,0 +1,34 @@
+2023-10-22 10:26:31 | INFO | model_worker | Loading the model ['chatglm2-6b'] on worker 6466937c ...
+2023-10-22 10:26:31 | ERROR | stderr | Process model_worker - chatglm2-6b:
+2023-10-22 10:26:31 | ERROR | stderr | Traceback (most recent call last):
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+2023-10-22 10:26:31 | ERROR | stderr |     self.run()
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+2023-10-22 10:26:31 | ERROR | stderr |     self._target(*self._args, **self._kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/Langchain-Chatchat/startup.py", line 382, in run_model_worker
+2023-10-22 10:26:31 | ERROR | stderr |     app = create_model_worker_app(log_level=log_level, **kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/Langchain-Chatchat/startup.py", line 210, in create_model_worker_app
+2023-10-22 10:26:31 | ERROR | stderr |     worker = ModelWorker(
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/fastchat/serve/model_worker.py", line 74, in __init__
+2023-10-22 10:26:31 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/fastchat/model/model_adapter.py", line 294, in load_model
+2023-10-22 10:26:31 | ERROR | stderr |     model, tokenizer = adapter.load_model(model_path, kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/fastchat/model/model_adapter.py", line 716, in load_model
+2023-10-22 10:26:31 | ERROR | stderr |     tokenizer = AutoTokenizer.from_pretrained(
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 738, in from_pretrained
+2023-10-22 10:26:31 | ERROR | stderr |     return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2017, in from_pretrained
+2023-10-22 10:26:31 | ERROR | stderr |     return cls._from_pretrained(
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2249, in _from_pretrained
+2023-10-22 10:26:31 | ERROR | stderr |     tokenizer = cls(*init_inputs, **init_kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/.cache/huggingface/modules/transformers_modules/chatglm2-6b/tokenization_chatglm.py", line 69, in __init__
+2023-10-22 10:26:31 | ERROR | stderr |     super().__init__(padding_side=padding_side, clean_up_tokenization_spaces=clean_up_tokenization_spaces, **kwargs)
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 367, in __init__
+2023-10-22 10:26:31 | ERROR | stderr |     self._add_tokens(
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/pyenv/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 467, in _add_tokens
+2023-10-22 10:26:31 | ERROR | stderr |     current_vocab = self.get_vocab().copy()
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/.cache/huggingface/modules/transformers_modules/chatglm2-6b/tokenization_chatglm.py", line 112, in get_vocab
+2023-10-22 10:26:31 | ERROR | stderr |     vocab = {self._convert_id_to_token(i): i for i in range(self.vocab_size)}
+2023-10-22 10:26:31 | ERROR | stderr |   File "/root/.cache/huggingface/modules/transformers_modules/chatglm2-6b/tokenization_chatglm.py", line 108, in vocab_size
+2023-10-22 10:26:31 | ERROR | stderr |     return self.tokenizer.n_words
+2023-10-22 10:26:31 | ERROR | stderr | AttributeError: 'ChatGLMTokenizer' object has no attribute 'tokenizer'

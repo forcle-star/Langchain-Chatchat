@@ -1,0 +1,10 @@
+name: Decision
+description: Predict the corresponding Bottom Displacement based on the given parameter list
+parameters:
+  type: object
+  properties:
+    X_test:
+      type: string
+      description: The input data to Predict
+  required:
+    - X_test

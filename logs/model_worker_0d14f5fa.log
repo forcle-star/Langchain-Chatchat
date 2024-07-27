@@ -1,0 +1,17 @@
+2023-10-22 10:35:16 | INFO | model_worker | Register to controller
+2023-10-22 10:35:16 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m1456[0m]
+2023-10-22 10:35:16 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-10-22 10:35:16 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-10-22 10:35:16 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://0.0.0.0:21001[0m (Press CTRL+C to quit)
+2023-10-22 10:36:01 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:36:46 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:37:31 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:38:16 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:39:01 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:39:46 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:40:31 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:41:16 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:42:01 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:42:46 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:43:31 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
+2023-10-22 10:44:16 | INFO | model_worker | Send heart beat. Models: ['zhipu-api']. Semaphore: Semaphore(value=5, locked=False). call_ct: 0. worker_id: 0d14f5fa. 
